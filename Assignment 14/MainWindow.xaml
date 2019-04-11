@@ -1,12 +1,12 @@
-﻿<Page
-    x:Class="AfyaNafuu.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:AfyaNafuu"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+﻿<Window x:Class="Assignment_14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
+        xmlns:local="clr-namespace:Assignment_14"
+        mc:Ignorable="d"
+        Title="AfyaNafuu App" Height="450" Width="800"  >
 
     <Grid Background="#FF00A6BB">
         <Image Source="Stethoscope.jpg"/>
@@ -24,16 +24,16 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-
+        
         <Button Content="Login" HorizontalAlignment="Center" Margin="440.52,367.429,224.037,0" 
                 VerticalAlignment="Top" Width="127.443" Height="41.571" Background="White" 
                 FontSize="18" 
-                Click="WhenClicked"/>
-
+                FontWeight="DemiBold" Click="WhenClicked" BorderThickness="4" BorderBrush="#FF00A6BB"/>
+        
         <Button Content="More about us" HorizontalAlignment="Center" Margin="269.24,367.429,387.499,0" 
                 VerticalAlignment="Top" Width="135.261" Height="41.571" Background="White" FontSize="18" 
-                Click="OnClick"/>
+                FontWeight="DemiBold" Click="OnClick" BorderThickness="4" BorderBrush="#FF00A6BB"/>
         <Frame x:Name="Frame1"/>
 
     </Grid>
-</Page>
+</Window>

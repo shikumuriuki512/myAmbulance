@@ -1,0 +1,56 @@
+﻿<Window x:Class="Assignment_14.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_14"
+        mc:Ignorable="d"
+        Title="Sign Up Page" Height="544" Width="800">
+    <Grid HorizontalAlignment="Center" >
+        <Image Source="C:\Users\HP\source\repos\Assignment 14\Assignment 14\Sign up board.jpeg" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="306.489,10,0,0" TextWrapping="Wrap" Text="Sign Up Page" 
+                   FontSize="35" FontWeight="Bold" VerticalAlignment="Top" Width="247.125"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="88.402,96.255,0,0" TextWrapping="Wrap" Text="First Name:" 
+                   FontSize="23" FontWeight="DemiBold" VerticalAlignment="Top" Height="31.789" Width="247.541"/>
+        <TextBox HorizontalAlignment="Left" Height="31.789" Margin="439.706,96.255,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="313.972" FontSize="20"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="83.402,154.926,0,0" TextWrapping="Wrap" Text="Middle and Last Name:" 
+                   VerticalAlignment="Top" Height="31.789" Width="252.541" FontSize="23" FontWeight="DemiBold"/>
+        <TextBox HorizontalAlignment="Left" Height="31.789" Margin="439.706,154.926,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="313.972" FontSize="20"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="83.402,219.297,0,0" TextWrapping="Wrap" Text="Date of Birth:" 
+                   FontSize="23" FontWeight="DemiBold"  VerticalAlignment="Top" Height="31.789" Width="252.541"/>
+        <DatePicker HorizontalAlignment="Left" FontSize="20" Margin="439.706,219.297,0,0" VerticalAlignment="Top" 
+                    Height="31.789" Width="313.972"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="83.402,280.291,0,0" TextWrapping="Wrap" Text="Email Address:" 
+                   VerticalAlignment="Top" Height="31.789" Width="252.541" FontSize="23" FontWeight="DemiBold"/>
+        <TextBox HorizontalAlignment="Left" Height="31.789" Margin="439.706,280.291,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="313.972" FontSize="20"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="83.402,344.251,0,0" TextWrapping="Wrap" Text="Password:" 
+                   VerticalAlignment="Top" Height="31.789" Width="252.541" FontSize="23" FontWeight="DemiBold"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="439.706,344.251,0,0" VerticalAlignment="Top" Height="31.789" 
+                     Width="313.972" FontSize="20"/>
+
+        <Button Content="Submit" FontSize="20" HorizontalAlignment="Left" Margin="134,459,0,0" VerticalAlignment="Top" 
+                Width="99" Height="43" FontWeight="Bold" BorderBrush="#FFDBB590" BorderThickness="4" 
+                Background="White"/>
+
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="335.943,459,0,0" VerticalAlignment="Top" Width="99" 
+                Height="43" FontSize="20" FontWeight="Bold" BorderBrush="#FFDBB590" BorderThickness="4" 
+                Background="White"/>
+
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="553.614,459,0,0" VerticalAlignment="Top" Width="99" 
+                Height="43" FontSize="20" FontWeight="Bold" BorderBrush="#FFDBB590" BorderThickness="4" 
+                Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="83.402,404.211,0,0" TextWrapping="Wrap" Text="Confirm Password:" 
+                   FontSize="23" FontWeight="DemiBold" VerticalAlignment="Top" Width="252.541" Height="31.789"/>
+        <PasswordBox FontSize="20" HorizontalAlignment="Left" Height="31.789" Margin="439.706,404.211,0,0" 
+                     VerticalAlignment="Top" Width="313.972"/>
+
+    </Grid>
+</Window>
